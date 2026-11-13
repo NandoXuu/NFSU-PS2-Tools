@@ -1,0 +1,9 @@
+build/
+.gradle/
+android/.gradle/
+android/app/build/
+android/local.properties
+.cxx/
+*.nmsh
+*.ntex
+diag/
