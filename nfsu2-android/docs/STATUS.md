@@ -14,8 +14,8 @@ Atualizado em 2026-11-13. Marcação: ✅ implementado e testado · 🟡 impleme
 |---|---|---|
 | Renderer GLES 3.0 (malha + luz direcional) | 🟡 | sintaxe checada com stubs; **nunca executado em aparelho** |
 | Cena de diagnóstico (carrega `diag/car.nmsh`, gira com toque) | 🟡 | falha de carga → fundo vermelho + mensagem, sem modelo substituto |
-| Ponte JNI Kotlin↔C++ | 🟡 | compilada só no CI |
-| GitHub Actions (host tests + APK arm64-v8a) | 🟡 | YAML escrito; **ainda não executado** |
+| Ponte JNI Kotlin↔C++ | 🟡 | compila no CI (NDK 26); **nunca executada em aparelho** |
+| GitHub Actions (host tests + APK arm64-v8a) | ✅ | executado em 2026-11-13: testes passam no runner e o APK debug (~1,1 MB) é publicado como artifact |
 | Texturas na malha, sombras, reflexos, LOD, culling | ❌ | texturas dependem de UV (⛔) |
 | Áudio (Oboe/AAudio) | ❌ | só o carregador WAV existe |
 | UI, garagem, HUD, controles configuráveis, gamepad | ❌ | |
