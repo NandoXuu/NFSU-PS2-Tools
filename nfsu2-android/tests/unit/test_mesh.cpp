@@ -1,3 +1,4 @@
+#include <limits>
 #include <string>
 
 #include "assets/mesh.h"
