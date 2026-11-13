@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+__pycache__/
+*.pyc
+*.so
+*.dll
+*.exe
+*.o
+*.obj
+*.a
+*.pdb
+*.cache

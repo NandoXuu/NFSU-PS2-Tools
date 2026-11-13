@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+g++ \
+	-I. \
+	-IUNIX \
+	-IHUFF \
+	-IREFPACK \
+	-IBTREE \
+	-IJDLZ \
+	-ICOMP \
+	-fexec-charset=ISO-8859-1 \
+	-static-libgcc \
+	-static-libstdc++ \
+	-static \
+	-fpermissive \
+	main.cpp -oea_compression_tool
